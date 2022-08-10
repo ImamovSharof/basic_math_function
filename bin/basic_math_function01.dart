@@ -7,4 +7,12 @@
       side (double): the side of the square
 */
 
-void main() {}
+import 'dart:math';
+
+num func(int a) {
+  return sqrt(a);
+}
+
+void main() {
+  print(func(16));
+}
